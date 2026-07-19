@@ -100,13 +100,20 @@
                                                     formatter: '.formatDateRange'
                                                 }" class="cvDateText"/>
                                                 <Text
+                                                    text="{cv>Location}"
+                                                    visible="{= !!${cv>Location} }"
+                                                    class="cvEntryLocation"/>
+                                                <Text
                                                     text="{cv>Grade}"
                                                     visible="{= !!${cv>Grade} }"
                                                     class="cvEntryLocation"/>
                                             </VBox>
                                             <VBox class="cvContentCol">
                                                 <Text text="{cv>Institution}" class="cvCompany"/>
-                                                <Text text="{cv>Degree}" class="cvRole"/>
+                                                <Text
+                                                    text="{cv>Degree}"
+                                                    visible="{= !!${cv>Degree} }"
+                                                    class="cvRole"/>
                                                 <Text
                                                     text="{cv>FieldStudy}"
                                                     visible="{= !!${cv>FieldStudy} }"
@@ -116,6 +123,11 @@
                                                     wrapping="true"
                                                     visible="{= !!${cv>Description} }"
                                                     class="cvTasks"/>
+                                                <Text
+                                                    text="{path: 'cv>Technologies', formatter: '.formatTech'}"
+                                                    wrapping="true"
+                                                    class="cvTech"
+                                                    visible="{= !!${cv>Technologies} }"/>
                                             </VBox>
                                         </HBox>
                                     </CustomListItem>

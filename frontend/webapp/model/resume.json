@@ -1,19 +1,19 @@
 {
   "FullName": "Ramil Shakirov",
-  "Title": "SAP HCM Consultant und ABAP Entwickler",
+  "Title": "SAP ABAP Cloud Developer | Fiori & BTP Development\nSAP HCM Consultant (PY · PT · PA · OM)",
   "Location": "Berlin",
   "Email": "r.shakirov77@web.de",
-  "Summary": "SAP HCM Consultant mit Erfahrung in den Modulen PY, PT, PA und OM sowie Schwerpunkt auf Application Support, Customizing und Fehleranalyse im Umfeld der deutschen Entgeltabrechnung. Sicher im Umgang mit Lohnarten, Schemen, Personalrechenregeln, gesetzlichen Meldeverfahren und SAP-Hinweismanagement. Zusätzlich zertifiziert im Bereich ABAP Cloud Backend Development mit Kenntnissen in RAP, CDS, OData und SAP Fiori Elements. Kombiniert SAP-HCM-Prozessverständnis mit technischer Analysefähigkeit, ABAP-Debugging und moderner SAP-Entwicklung.",
+  "Summary": "SAP ABAP Cloud Developer mit Erfahrung in der Entwicklung von SAP-Lösungen auf Basis von ABAP OO, RAP, CDS Views und OData-Services in Eclipse ADT. Vertraut mit der Gestaltung von SAP Fiori Anwendungen (Fiori Elements, SAPUI5, VSCode) auf der SAP BTP. Einsatz von KI-gestützten Entwicklungswerkzeugen: Claude/GitHub LLMs, Custom Agents/Skills, ABAP ADT MCP Server, abapGit u.v.m.\n\nLangjährige Erfahrung als SAP HCM Consultant (PA, PT, PY, OM) — international sowie mit gezielter Vertiefung in der deutschen Entgeltabrechnung: Lohnarten, Schemen, DEÜV, ELStAM und deutsches Steuer- und Sozialversicherungsrecht. Technische Analysefähigkeit und Debugging-Erfahrung im HCM-Umfeld.",
   "PhotoUrl": "img/photo.png",
   "_Experiences": [
     {
       "CompanyName": "OEDIV HR Services",
-      "RoleTitle": "SAP HCM Consultant in Application Support Team",
+      "RoleTitle": "SAP HCM Consultant in Application Management Services Team",
       "StartDate": "2024-04-01",
       "EndDate": "2024-09-30",
       "Location": "Bielefeld/Berlin",
-      "Tasks": "Betreuung der SAP-HCM-Systemlandschaft in den Modulen PY, PT und PA im 2nd-Level-Support. Analyse und Bearbeitung von Incidents im Umfeld der Entgeltabrechnung und Personaladministration. Customizing von Lohnarten, Schemen und Personalrechenregeln. Monitoring und Fehleranalyse gesetzlicher Meldeverfahren (DEÜV, ELStAM) sowie Fehlerprüfung mittels ABAP-Debugging.",
-      "Technologies": "SAP HCM, PY, PT, PA, DEÜV, ELStAM, ABAP"
+      "Tasks": "2nd-Level-Support der SAP-HCM-Systemlandschaft (PY, PT, PA) für Kundensysteme. Analyse und Bearbeitung von Incidents und Tickets in der Entgeltabrechnung und Zeitwirtschaft. Customizing von Lohnarten, Schemen, Regeln und Teilapplikationen. Monitoring und Fehleranalyse gesetzlicher Meldeverfahren (DEÜV, ELStAM). Technische Fehleranalyse mittels ABAP-Debugging.",
+      "Technologies": "SAP HCM · PY · PT · PA"
     },
     {
       "CompanyName": "Lufthansa Industry Solutions",
@@ -21,64 +21,99 @@
       "StartDate": "2023-09-01",
       "EndDate": "2024-02-29",
       "Location": "Berlin",
-      "Tasks": "Analyse und Klärung abrechnungsrelevanter Fehler in SAP HCM Payroll. Pflege abrechnungsrelevanter Stammdaten, u. a. Krankenkassenbeitragssätze und UV-Stammdaten. Analyse von SAP-Hinweisen über SNOTE sowie Unterstützung bei Tests und HR Support Packages.",
-      "Technologies": "SAP HCM, Payroll, SNOTE, HR Support Packages"
+      "Tasks": "Pflege und Aktualisierung abrechnungsrelevanter Stammdaten (Krankenkassenbeitragssätze, UV-Stammdaten). Analyse und Implementierung von SAP-Hinweisen via SNOTE. Durchführung von Tests im Rahmen von HR Support Packages. Analyse und Behebung abrechnungsrelevanter Fehler in SAP HCM Payroll.",
+      "Technologies": "SAP HCM · PY · SNOTE · HR Support Packages"
     },
     {
-      "CompanyName": "Iron Mountain Deutschland GmbH",
-      "RoleTitle": "Imaging Specialist / Projektmitarbeiter Digitalisierung",
+      "CompanyName": "Iron Mountain Deutschland (Interim/Projektmitarbeit)",
+      "RoleTitle": "Imaging Specialist",
       "StartDate": "2022-12-01",
       "EndDate": "2023-05-31",
       "Location": "Berlin",
-      "Tasks": "Unterstützung in einem befristeten Massendigitalisierungsprojekt inklusive Scan-, Indexierungs- und Archivierungsprozessen. Prüfung und Qualitätssicherung digitalisierter Dokumente zur Sicherstellung von Datenintegrität und korrekter Dokumentenzuordnung.",
-      "Technologies": "SAP HCM, ECM, Dokumentenmanagement, Workflow"
+      "Tasks": "Unterstützung in einem befristeten Massendigitalisierungsprojekt inklusive Scan-, Indexierungs- und Archivierungsprozessen.",
+      "Technologies": "ECM/DMS, Workflow, Digital Archiving"
     },
     {
       "CompanyName": "E-event.kz",
-      "RoleTitle": "Inhaber & Projektleiter",
+      "RoleTitle": "Projektleiter",
       "StartDate": "2015-02-01",
       "EndDate": "2019-01-31",
       "Location": "Almaty/Kasachstan",
-      "Tasks": "Aufbau und Leitung eines Unternehmens für PR-, Bildungs- und Kundenprojekte in den Branchen Telekommunikation und Gesundheitswesen. Verantwortung für Projektplanung, Budgetierung, Kundenkommunikation, Dienstleistersteuerung und Qualitätssicherung.",
-      "Technologies": ""
+      "Tasks": "Selbstständige Tätigkeit mit Verantwortung für Projektplanung, Budgetierung und Kundenmanagement.",
+      "Technologies": "Projektmanagement · Agile/Scrum"
     },
     {
-      "CompanyName": "Diverse Unternehmen und Dienstleister",
-      "RoleTitle": "SAP HCM / ECM Consultant & Projektmanager",
-      "StartDate": "2006-09-01",
+      "CompanyName": "ERP-Services KazTransCom",
+      "RoleTitle": "SAP HCM Consultant",
+      "StartDate": "2014-08-01",
       "EndDate": "2015-01-31",
+      "Location": "Astana/Kasachstan",
+      "Tasks": "Konfiguration von Arbeitszeitplänen, Abwesenheitsarten und Kontingentverwaltung. Umsetzung kundenspezifischer Anforderungen im Bereich der negativen Zeitauswertung.",
+      "Technologies": "SAP HCM · PT"
+    },
+    {
+      "CompanyName": "BAS Consulting",
+      "RoleTitle": "SAP HCM / ECM Berater & Projektmanager",
+      "StartDate": "2012-09-01",
+      "EndDate": "2014-01-31",
+      "Location": "Almaty/Kasachstan",
+      "Tasks": "Analyse der Geschäftsanforderungen und Erstellung von Fachkonzepten für die Module PA, OM und PT. Konzeption und Implementierung einer bidirektionalen Schnittstelle zwischen SAP HCM (Zeitwirtschaft) und EMC Documentum (Dokumentenmanagement & Employee Self-Service). Sicherstellung des 2nd-Level-Supports im Produktivbetrieb.",
+      "Technologies": "SAP HCM · PA · OM · PT · ECM · EMC Documentum"
+    },
+    {
+      "CompanyName": "Diverse Unternehmen",
+      "RoleTitle": "IT-Consultant & Projektmanager",
+      "StartDate": "2006-09-01",
+      "EndDate": "2012-08-31",
       "Location": "Kasachstan",
-      "Tasks": "Beratung und Implementierung von Dokumentenmanagement-, ECM- und Workflow-Lösungen für Geschäfts-, HR- und Archivprozesse. Technische Projektleitung inklusive Anforderungsanalyse, Testing, Rollout, Qualitätssicherung und Anwenderschulungen.",
-      "Technologies": ""
+      "Tasks": "IT-Beratung und Projektleitung im Bereich Dokumentenmanagement und ECM.",
+      "Technologies": "ECM · Dokumentenmanagement · Workflow · Archivierung · Projektmanagement · Agile/Scrum"
     }
   ],
   "_Educations": [
     {
       "Institution": "Selbststudium",
-      "Degree": "Zertifizierter ABAP Cloud Backend Developer",
-      "FieldStudy": "SAP HCM, ABAP Cloud, SAP Fiori",
+      "Degree": "SAP ABAP Cloud & Fiori Development",
+      "FieldStudy": "",
+      "Location": "Berlin",
       "StartDate": "2024-10-01",
       "EndDate": "",
       "Grade": "",
-      "Description": ""
+      "Description": "SAP Certified Associate Backend Developer – ABAP Cloud. Vertiefung in modernem ABAP OO, RAP, CDS Views, OData-Services und SAP Fiori (Fiori Elements, SAPUI5). Entwicklung eigener Anwendungen auf SAP BTP (ABAP Environment) unter Einsatz von Eclipse ADT, VSCode und KI-gestützten Entwicklungswerkzeugen.",
+      "Technologies": ""
     },
     {
-      "Institution": "SAP Education",
-      "Degree": "SAP HCM Certified Application Associate",
-      "FieldStudy": "SAP Human Capital Management",
+      "Institution": "EPI-USE",
+      "Degree": "Praktikum SAP HCM Zeitwirtschaft",
+      "FieldStudy": "",
+      "Location": "Berlin",
+      "StartDate": "2022-08-01",
+      "EndDate": "2022-09-30",
+      "Grade": "",
+      "Description": "Customizing von Arbeitszeitplänen, Abwesenheitskontingenten und Personalzeitereignissen. Anpassung von Zeitwirtschaftsschema und Personalrechenregeln. Durchführung und Analyse von Testläufen.",
+      "Technologies": "SAP PT"
+    },
+    {
+      "Institution": "Berufliche Neuorientierung und fachliche Weiterbildung",
+      "Degree": "",
+      "FieldStudy": "",
+      "Location": "Berlin",
       "StartDate": "2019-02-01",
-      "EndDate": "2022-07-31",
-      "Grade": "Bachelor",
-      "Description": "Erwerb und Ausbau der deutschen Sprachkompetenz. Berufliche Neuorientierung und Vorbereitung auf den deutschen IT- und SAP-Arbeitsmarkt. Abschluss einer SAP-HCM-Weiterbildung mit Zertifizierung als SAP Certified Application Associate – Human Capital Management. Vertiefung der Kenntnisse in SAP HCM, insbesondere PA, OM, PT und PY."
+      "EndDate": "2022-04-30",
+      "Grade": "",
+      "Description": "SAP Certified Application Associate – Human Capital Management (HCM). Vertiefung der Fachkenntnisse in der deutschen Entgeltabrechnung und Sozialversicherung. Intensiver Spracherwerb Deutsch (Niveau B2/C1).",
+      "Technologies": ""
     },
     {
       "Institution": "Akhmet Yassawi International Kazakh-Turkish University",
       "Degree": "Diplom-Soziologe",
       "FieldStudy": "Soziologie",
+      "Location": "",
       "StartDate": "1995-09-01",
       "EndDate": "1999-05-31",
       "Grade": "",
-      "Description": "Vertiefung der Fachkenntnisse in der deutschen Entgeltabrechnung, insbesondere Steuerrecht, Sozialversicherung, Meldewesen und Payroll-Prozesse. Aktualisierung und Ausbau der SAP-HCM-Kenntnisse in den Modulen PY, PT, PA und OM. Weiterbildung im Bereich ABAP Cloud Backend Development mit Fokus auf RAP, CDS Views, OData-Services und SAP Fiori Elements. Praxisorientierte Beschäftigung mit ABAP-Debugging, Schnittstellenanalyse, Systemdokumentation und modernen SAP-Entwicklungsansätzen."
+      "Description": "",
+      "Technologies": ""
     }
   ]
 }
