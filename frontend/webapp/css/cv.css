@@ -1,0 +1,305 @@
+/* ===== CV Container ===== */
+.cvPage {
+    background-color: #f5f5f5;
+}
+
+.cvContainer {
+    max-width: 860px;
+    margin: 32px auto;
+    padding: 48px 56px;
+    background: #ffffff;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+}
+
+/* ===== HEADER ===== */
+.cvHeader {
+    padding-bottom: 24px;
+    border-bottom: 2px solid #1a1a1a;
+    margin-bottom: 8px;
+    gap: 24px;
+}
+
+.cvAvatar {
+    flex-shrink: 0;
+    width: 110px !important;
+    height: 110px !important;
+    min-width: 110px;
+}
+
+.cvHeaderText {
+    flex: 1;
+    padding-top: 4px;
+}
+
+.cvName .sapMTitle {
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    color: #1a1a1a;
+    line-height: 1.2;
+}
+
+.cvJobTitle {
+    margin-top: 4px;
+    font-size: 15px;
+    color: #555;
+    font-style: italic;
+}
+
+.cvContactRow {
+    margin-top: 12px;
+    gap: 20px;
+}
+
+.cvContactItem {
+    gap: 6px;
+}
+
+.cvContactIcon {
+    color: #666;
+    font-size: 14px;
+}
+
+.cvContactItem .sapMText {
+    font-size: 13px;
+    color: #444;
+}
+
+/* ===== SECTIONS ===== */
+.cvSection {
+    margin-top: 28px;
+}
+
+.cvSectionTitle {
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+    border-bottom: 1.5px solid #cccccc;
+    padding-bottom: 6px;
+    margin-bottom: 16px;
+}
+
+.cvSectionTitle.sapMText {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+    border-bottom: 1.5px solid #cccccc;
+    padding-bottom: 6px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+/* ===== SUMMARY ===== */
+.cvSummaryText.sapMText {
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: #333;
+    margin-top: 8px;
+}
+
+/* ===== EXPERIENCE / EDUCATION ENTRIES ===== */
+.cvEntryItem {
+    padding: 0 !important;
+}
+
+.cvEntryItem .sapMLIBContent {
+    padding: 0 !important;
+}
+
+.cvEntry {
+    padding: 12px 0;
+    border-bottom: 1px dotted #e8e8e8;
+    gap: 0;
+}
+
+.cvEntry:last-child {
+    border-bottom: none;
+}
+
+.cvDateCol {
+    min-width: 160px;
+    width: 160px;
+    padding-right: 20px;
+    padding-top: 2px;
+    flex-shrink: 0;
+}
+
+.cvDateText.sapMText {
+    font-size: 12.5px;
+    color: #555;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.cvEntryLocation.sapMText {
+    font-size: 12px;
+    color: #777;
+    margin-top: 3px;
+}
+
+.cvContentCol {
+    flex: 1;
+}
+
+.cvCompany.sapMText {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 2px;
+}
+
+.cvRole.sapMText {
+    font-size: 13px;
+    font-style: italic;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+.cvTasks.sapMText {
+    font-size: 13px;
+    color: #333;
+    line-height: 1.55;
+    margin-bottom: 6px;
+}
+
+.cvTech.sapMText {
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+}
+
+/* ===== LANGUAGES ===== */
+.cvLangSection {
+    margin-top: 8px;
+    gap: 6px;
+}
+
+.cvLangRow {
+    gap: 0;
+    align-items: baseline;
+}
+
+.cvLangName.sapMText {
+    min-width: 140px;
+    font-size: 13.5px;
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+.cvLangLevel.sapMText {
+    font-size: 13.5px;
+    color: #444;
+}
+
+.cvWeatherItem {
+    border-left: 1px solid #ddd;
+    padding-left: 16px;
+    margin-left: 4px;
+}
+
+.cvWeatherLabel.sapMText {
+    font-size: 11px;
+    color: #888;
+    margin-bottom: 2px;
+}
+
+.cvWeatherRow {
+    gap: 2px;
+}
+
+.cvWeatherIcon {
+    vertical-align: middle;
+}
+
+/* ===== PRINT BUTTON ===== */
+.cvPrintRow {
+    margin-top: 32px;
+    padding-top: 16px;
+    border-top: 1px solid #e8e8e8;
+}
+
+.cvPrintBtn.sapMBtn {
+    min-width: 160px;
+}
+
+/* ===== PRINT STYLES ===== */
+@media print {
+    /* Hide everything except CV content */
+    .noPrint,
+    .sapUShellHead,
+    .sapUShellBackgroundImage,
+    .sapUShellShellHeadItm,
+    .sapMPageHeader,
+    .sapMPageFooter {
+        display: none !important;
+    }
+
+    /* Remove page background */
+    .cvPage,
+    body,
+    html {
+        background: white !important;
+        height: auto !important;
+        overflow: visible !important;
+    }
+
+    /* Expand ScrollContainer to show all content */
+    .sapMScrollCont,
+    .sapMScrollContScroll {
+        height: auto !important;
+        max-height: none !important;
+        overflow: visible !important;
+        position: static !important;
+    }
+
+    /* Expand Page content area */
+    .sapMPage,
+    .sapMPageBG,
+    .sapMPageContent {
+        height: auto !important;
+        overflow: visible !important;
+        position: static !important;
+    }
+
+    /* Expand App */
+    .sapMApp,
+    .sapMNav {
+        height: auto !important;
+        overflow: visible !important;
+        position: static !important;
+    }
+
+    /* Remove box shadow and margin from container */
+    .cvContainer {
+        box-shadow: none !important;
+        margin: 0 !important;
+        padding: 24px 32px !important;
+        max-width: 100% !important;
+    }
+
+    /* Avoid page breaks inside entries */
+    .cvEntryItem,
+    .cvEntry {
+        page-break-inside: avoid;
+    }
+
+    /* Keep section titles with their content */
+    .cvSection {
+        page-break-inside: avoid;
+    }
+}
+.cvContainer .sapMList {
+    background: transparent;
+}
+
+.cvContainer .sapMListItems .sapMLIB {
+    background: transparent;
+    border-bottom: none;
+}
+
+.cvContainer .sapMLIB:hover {
+    background: transparent !important;
+}

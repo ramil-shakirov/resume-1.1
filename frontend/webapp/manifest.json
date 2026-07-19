@@ -1,0 +1,28 @@
+{
+    "_version": "1.76.0",
+    "sap.app": {
+        "id": "resume.freestyle",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "title": "Resume CV",
+        "applicationVersion": { "version": "0.0.1" }
+    },
+    "sap.ui5": {
+        "rootView": {
+            "viewName": "resume.freestyle.view.CV",
+            "type": "XML",
+            "id": "app"
+        },
+        "dependencies": {
+            "minUI5Version": "1.120.0",
+            "libs": {
+                "sap.m": {},
+                "sap.f": {},
+                "sap.ui.core": {}
+            }
+        },
+        "resources": {
+            "css": [{ "uri": "css/cv.css" }]
+        }
+    }
+}

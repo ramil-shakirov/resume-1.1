@@ -1,0 +1,164 @@
+<mvc:View
+    controllerName="resume.freestyle.controller.CV"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    displayBlock="true">
+
+    <App>
+        <Page showHeader="false" class="cvPage">
+            <content>
+                <ScrollContainer vertical="true" height="100%" width="100%">
+                    <VBox class="cvContainer">
+
+                        <!-- ======= HEADER ======= -->
+                        <HBox class="cvHeader" alignItems="Start">
+                            <Avatar
+                                src="{cv>/PhotoUrl}"
+                                displaySize="XL"
+                                class="cvAvatar"
+                                displayShape="Circle"
+                                fallbackIcon="sap-icon://person-placeholder"/>
+                            <VBox class="cvHeaderText">
+                                <Title text="{cv>/FullName}" level="H1" class="cvName" titleStyle="H1"/>
+                                <Text text="{cv>/Title}" class="cvJobTitle"/>
+                                <HBox class="cvContactRow" wrap="Wrap">
+                                    <HBox class="cvContactItem" alignItems="Center">
+                                        <core:Icon src="sap-icon://email" class="cvContactIcon"/>
+                                        <Text text="{cv>/Email}"/>
+                                    </HBox>
+                                    <HBox class="cvContactItem" alignItems="Center" visible="{= !!${cv>/Phone} }">
+                                        <core:Icon src="sap-icon://phone" class="cvContactIcon"/>
+                                        <Text text="{cv>/Phone}"/>
+                                    </HBox>
+                                    <HBox class="cvContactItem" alignItems="Center">
+                                        <core:Icon src="sap-icon://map" class="cvContactIcon"/>
+                                        <Text text="{cv>/Location}"/>
+                                    </HBox>
+                                    <VBox class="cvWeatherItem" visible="{= !!${weather>/loaded} }">
+                                        <Text text="Wetter in Berlin (openweathermap.org)" class="cvWeatherLabel"/>
+                                        <HBox alignItems="Center" class="cvWeatherRow">
+                                            <Image src="{weather>/icon}" width="22px" height="22px" class="cvWeatherIcon"/>
+                                            <Text text="{weather>/temp}°C · {weather>/description}"/>
+                                        </HBox>
+                                    </VBox>
+                                </HBox>
+                            </VBox>
+                        </HBox>
+
+                        <!-- ======= KURZPROFIL ======= -->
+                        <VBox class="cvSection">
+                            <Text text="Kurzprofil" class="cvSectionTitle"/>
+                            <Text text="{cv>/Summary}" wrapping="true" class="cvSummaryText"/>
+                        </VBox>
+
+                        <!-- ======= BERUFSERFAHRUNG ======= -->
+                        <VBox class="cvSection">
+                            <Text text="Berufserfahrung" class="cvSectionTitle"/>
+                            <List
+                                id="experienceList"
+                                showNoData="false"
+                                showSeparators="None"
+                                items="{cv>/_Experiences}">
+                                <items>
+                                    <CustomListItem class="cvEntryItem">
+                                        <HBox class="cvEntry">
+                                            <VBox class="cvDateCol">
+                                                <Text text="{
+                                                    parts: [{path: 'cv>StartDate'}, {path: 'cv>EndDate'}],
+                                                    formatter: '.formatDateRange'
+                                                }" class="cvDateText"/>
+                                                <Text text="{cv>Location}" class="cvEntryLocation"/>
+                                            </VBox>
+                                            <VBox class="cvContentCol">
+                                                <Text text="{cv>CompanyName}" class="cvCompany"/>
+                                                <Text text="{cv>RoleTitle}" class="cvRole"/>
+                                                <Text text="{cv>Tasks}" wrapping="true" class="cvTasks"/>
+                                                <Text
+                                                    text="{path: 'cv>Technologies', formatter: '.formatTech'}"
+                                                    wrapping="true"
+                                                    class="cvTech"
+                                                    visible="{= !!${cv>Technologies} }"/>
+                                            </VBox>
+                                        </HBox>
+                                    </CustomListItem>
+                                </items>
+                            </List>
+                        </VBox>
+
+                        <!-- ======= WEITERBILDUNG ======= -->
+                        <VBox class="cvSection">
+                            <Text text="Weiterbildung / Schulbildung" class="cvSectionTitle"/>
+                            <List
+                                id="educationList"
+                                showNoData="false"
+                                showSeparators="None"
+                                items="{cv>/_Educations}">
+                                <items>
+                                    <CustomListItem class="cvEntryItem">
+                                        <HBox class="cvEntry">
+                                            <VBox class="cvDateCol">
+                                                <Text text="{
+                                                    parts: [{path: 'cv>StartDate'}, {path: 'cv>EndDate'}],
+                                                    formatter: '.formatDateRange'
+                                                }" class="cvDateText"/>
+                                                <Text
+                                                    text="{cv>Grade}"
+                                                    visible="{= !!${cv>Grade} }"
+                                                    class="cvEntryLocation"/>
+                                            </VBox>
+                                            <VBox class="cvContentCol">
+                                                <Text text="{cv>Institution}" class="cvCompany"/>
+                                                <Text text="{cv>Degree}" class="cvRole"/>
+                                                <Text
+                                                    text="{cv>FieldStudy}"
+                                                    visible="{= !!${cv>FieldStudy} }"
+                                                    class="cvEntryLocation"/>
+                                                <Text
+                                                    text="{cv>Description}"
+                                                    wrapping="true"
+                                                    visible="{= !!${cv>Description} }"
+                                                    class="cvTasks"/>
+                                            </VBox>
+                                        </HBox>
+                                    </CustomListItem>
+                                </items>
+                            </List>
+                        </VBox>
+
+                        <!-- ======= SPRACHKENNTNISSE ======= -->
+                        <VBox class="cvSection">
+                            <Text text="Sprachkenntnisse" class="cvSectionTitle"/>
+                            <VBox class="cvLangSection">
+                                <HBox class="cvLangRow">
+                                    <Text text="Russisch" class="cvLangName"/>
+                                    <Text text="Muttersprache" class="cvLangLevel"/>
+                                </HBox>
+                                <HBox class="cvLangRow">
+                                    <Text text="Deutsch" class="cvLangName"/>
+                                    <Text text="C1-Niveau" class="cvLangLevel"/>
+                                </HBox>
+                                <HBox class="cvLangRow">
+                                    <Text text="Englisch" class="cvLangName"/>
+                                    <Text text="B1-Niveau" class="cvLangLevel"/>
+                                </HBox>
+                            </VBox>
+                        </VBox>
+
+                        <!-- ======= PRINT BUTTON ======= -->
+                        <HBox justifyContent="End" class="cvPrintRow noPrint">
+                            <Button
+                                text="PDF speichern"
+                                icon="sap-icon://pdf-attachment"
+                                type="Emphasized"
+                                press=".onPrint"
+                                class="cvPrintBtn"/>
+                        </HBox>
+
+                    </VBox>
+                </ScrollContainer>
+            </content>
+        </Page>
+    </App>
+
+</mvc:View>

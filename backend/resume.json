@@ -1,0 +1,84 @@
+{
+  "FullName": "Ramil Shakirov",
+  "Title": "SAP HCM Consultant und ABAP Entwickler",
+  "Location": "Berlin",
+  "Email": "r.shakirov77@web.de",
+  "Summary": "SAP HCM Consultant mit Erfahrung in den Modulen PY, PT, PA und OM sowie Schwerpunkt auf Application Support, Customizing und Fehleranalyse im Umfeld der deutschen Entgeltabrechnung. Sicher im Umgang mit Lohnarten, Schemen, Personalrechenregeln, gesetzlichen Meldeverfahren und SAP-Hinweismanagement. Zusätzlich zertifiziert im Bereich ABAP Cloud Backend Development mit Kenntnissen in RAP, CDS, OData und SAP Fiori Elements. Kombiniert SAP-HCM-Prozessverständnis mit technischer Analysefähigkeit, ABAP-Debugging und moderner SAP-Entwicklung.",
+  "PhotoUrl": "https://raw.githubusercontent.com/Ramil-123/ZRS_VIDEOPACKAGE/09f273c91a4c82191e96b21159f1b09069af7db7/photo.png",
+  "_Experiences": [
+    {
+      "CompanyName": "OEDIV HR Services GmbH",
+      "RoleTitle": "SAP HCM Consultant/Application Support",
+      "StartDate": "2024-04-01",
+      "EndDate": "2024-09-30",
+      "Location": "Bielefeld/Berlin",
+      "Tasks": "Betreuung der SAP-HCM-Systemlandschaft in den Modulen PY, PT und PA im 2nd-Level-Support. Analyse und Bearbeitung von Incidents im Umfeld der Entgeltabrechnung und Personaladministration. Customizing von Lohnarten, Schemen und Personalrechenregeln. Monitoring und Fehleranalyse gesetzlicher Meldeverfahren (DEÜV, ELStAM) sowie Fehlerprüfung mittels ABAP-Debugging.",
+      "Technologies": "SAP HCM, PY, PT, PA, DEÜV, ELStAM, ABAP"
+    },
+    {
+      "CompanyName": "Lufthansa Industry Solutions GmbH & Co. KG",
+      "RoleTitle": "IT-Consultant SAP HCM Payroll",
+      "StartDate": "2023-09-01",
+      "EndDate": "2024-02-29",
+      "Location": "Berlin",
+      "Tasks": "Analyse und Klärung abrechnungsrelevanter Fehler in SAP HCM Payroll. Pflege abrechnungsrelevanter Stammdaten, u. a. Krankenkassenbeitragssätze und UV-Stammdaten. Analyse von SAP-Hinweisen über SNOTE sowie Unterstützung bei Tests und HR Support Packages.",
+      "Technologies": "SAP HCM, Payroll, SNOTE, HR Support Packages"
+    },
+    {
+      "CompanyName": "Iron Mountain Deutschland GmbH",
+      "RoleTitle": "Imaging Specialist / Projektmitarbeiter Digitalisierung",
+      "StartDate": "2022-12-01",
+      "EndDate": "2023-05-31",
+      "Location": "Berlin",
+      "Tasks": "Unterstützung in einem befristeten Massendigitalisierungsprojekt inklusive Scan-, Indexierungs- und Archivierungsprozessen. Prüfung und Qualitätssicherung digitalisierter Dokumente zur Sicherstellung von Datenintegrität und korrekter Dokumentenzuordnung.",
+      "Technologies": "SAP HCM, ECM, Dokumentenmanagement, Workflow"
+    },
+    {
+      "CompanyName": "E-event.kz",
+      "RoleTitle": "Inhaber & Projektleiter",
+      "StartDate": "2015-02-01",
+      "EndDate": "2019-01-31",
+      "Location": "Almaty/Kasachstan",
+      "Tasks": "Aufbau und Leitung eines Unternehmens für PR-, Bildungs- und Kundenprojekte in den Branchen Telekommunikation und Gesundheitswesen. Verantwortung für Projektplanung, Budgetierung, Kundenkommunikation, Dienstleistersteuerung und Qualitätssicherung.",
+      "Technologies": ""
+    },
+    {
+      "CompanyName": "Diverse Unternehmen und Dienstleister",
+      "RoleTitle": "SAP HCM / ECM Consultant & Projektmanager",
+      "StartDate": "2006-09-01",
+      "EndDate": "2015-01-31",
+      "Location": "Kasachstan",
+      "Tasks": "Beratung und Implementierung von Dokumentenmanagement-, ECM- und Workflow-Lösungen für Geschäfts-, HR- und Archivprozesse. Technische Projektleitung inklusive Anforderungsanalyse, Testing, Rollout, Qualitätssicherung und Anwenderschulungen.",
+      "Technologies": ""
+    }
+  ],
+  "_Educations": [
+    {
+      "Institution": "Selbststudium",
+      "Degree": "Zertifizierter ABAP Cloud Backend Developer",
+      "FieldStudy": "SAP HCM, ABAP Cloud, SAP Fiori",
+      "StartDate": "2024-10-01",
+      "EndDate": "",
+      "Grade": "",
+      "Description": ""
+    },
+    {
+      "Institution": "SAP Education",
+      "Degree": "SAP HCM Certified Application Associate",
+      "FieldStudy": "SAP Human Capital Management",
+      "StartDate": "2019-02-01",
+      "EndDate": "2022-07-31",
+      "Grade": "Bachelor",
+      "Description": "Erwerb und Ausbau der deutschen Sprachkompetenz. Berufliche Neuorientierung und Vorbereitung auf den deutschen IT- und SAP-Arbeitsmarkt. Abschluss einer SAP-HCM-Weiterbildung mit Zertifizierung als SAP Certified Application Associate – Human Capital Management. Vertiefung der Kenntnisse in SAP HCM, insbesondere PA, OM, PT und PY."
+    },
+    {
+      "Institution": "Akhmet Yassawi International Kazakh-Turkish University",
+      "Degree": "Diplom-Soziologe",
+      "FieldStudy": "Soziologie",
+      "StartDate": "1995-09-01",
+      "EndDate": "1999-05-31",
+      "Grade": "",
+      "Description": "Vertiefung der Fachkenntnisse in der deutschen Entgeltabrechnung, insbesondere Steuerrecht, Sozialversicherung, Meldewesen und Payroll-Prozesse. Aktualisierung und Ausbau der SAP-HCM-Kenntnisse in den Modulen PY, PT, PA und OM. Weiterbildung im Bereich ABAP Cloud Backend Development mit Fokus auf RAP, CDS Views, OData-Services und SAP Fiori Elements. Praxisorientierte Beschäftigung mit ABAP-Debugging, Schnittstellenanalyse, Systemdokumentation und modernen SAP-Entwicklungsansätzen."
+    }
+  ]
+}

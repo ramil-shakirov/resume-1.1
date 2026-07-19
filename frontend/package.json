@@ -1,0 +1,16 @@
+{
+  "name": "resume-1.1",
+  "version": "0.0.1",
+  "description": "Resume CV — static freestyle Fiori app for GitHub Pages",
+  "main": "webapp/index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "@ui5/cli": "^4.0.33",
+    "@sap/ux-ui5-tooling": "1"
+  },
+  "scripts": {
+    "start": "fiori run --open \"/index.html\"",
+    "sync-data": "node scripts/sync-data.js"
+  },
+  "sapux": true
+}
