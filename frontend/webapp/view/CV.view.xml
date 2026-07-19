@@ -31,12 +31,8 @@
                                         <core:Icon src="sap-icon://phone" class="cvContactIcon"/>
                                         <Text text="{cv>/Phone}"/>
                                     </HBox>
-                                    <HBox class="cvContactItem" alignItems="Center">
-                                        <core:Icon src="sap-icon://map" class="cvContactIcon"/>
-                                        <Text text="{cv>/Location}"/>
-                                    </HBox>
                                     <VBox class="cvWeatherItem" visible="{= !!${weather>/loaded} }">
-                                        <Text text="Wetter in Berlin (openweathermap.org)" class="cvWeatherLabel"/>
+                                        <Text text="Ich wohne in Berlin (openweathermap.org)" class="cvWeatherLabel"/>
                                         <HBox alignItems="Center" class="cvWeatherRow">
                                             <Image src="{weather>/icon}" width="22px" height="22px" class="cvWeatherIcon"/>
                                             <Text text="{weather>/temp}°C · {weather>/description}"/>
