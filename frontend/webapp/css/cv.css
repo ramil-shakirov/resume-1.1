@@ -201,13 +201,19 @@
 }
 
 .cvWeatherLabel.sapMText {
-    font-size: 11px;
-    color: #888;
+    font-size: 13px;
+    color: #444;
     margin-bottom: 2px;
 }
 
 .cvWeatherRow {
     gap: 2px;
+}
+
+.cvWeatherSource.sapMText {
+    font-size: 11px;
+    color: #888;
+    margin-top: 2px;
 }
 
 .cvWeatherIcon {
