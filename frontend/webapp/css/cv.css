@@ -310,3 +310,70 @@
 .cvContainer .sapMLIB:hover {
     background: transparent !important;
 }
+
+/* ===== MOBILE ===== */
+@media (max-width: 600px) {
+    .cvContainer {
+        margin: 0;
+        padding: 24px 20px;
+        box-shadow: none;
+    }
+
+    /* Header: stack avatar above text, centered */
+    .cvHeader {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 14px;
+    }
+
+    .cvAvatar {
+        width: 90px !important;
+        height: 90px !important;
+        min-width: 90px;
+    }
+
+    .cvHeaderText {
+        padding-top: 0;
+        width: 100%;
+    }
+
+    .cvName .sapMTitle {
+        font-size: 22px !important;
+    }
+
+    .cvContactRow {
+        justify-content: center;
+    }
+
+    .cvWeatherItem {
+        border-left: none;
+        border-top: 1px solid #ddd;
+        padding-left: 0;
+        padding-top: 10px;
+        margin-left: 0;
+        margin-top: 10px;
+        align-items: center;
+        width: 100%;
+    }
+
+    /* Entries: date above content instead of side-by-side */
+    .cvEntry {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .cvDateCol {
+        width: 100%;
+        min-width: 0;
+        padding-right: 0;
+    }
+
+    .cvDateText.sapMText {
+        white-space: normal;
+    }
+
+    .cvLangName.sapMText {
+        min-width: 100px;
+    }
+}
