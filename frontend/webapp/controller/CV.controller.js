@@ -157,7 +157,6 @@ sap.ui.define([
                             "<div style='margin-top:10px;font-size:11px;color:#888'>" +
                                 "Ich wohne in Berlin, wo gerade" +
                                 "<span style='font-size:12.5px;color:#444;margin:0 6px'>" + oWeather.temp + "°C · " + oWeather.description + "</span>" +
-                                "(openweathermap.org API)" +
                             "</div>"
                             : "") +
                     "</div>" +

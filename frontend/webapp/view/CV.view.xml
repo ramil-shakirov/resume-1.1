@@ -37,7 +37,6 @@
                                             <Image src="{weather>/icon}" width="22px" height="22px" class="cvWeatherIcon"/>
                                             <Text text="{weather>/temp}°C · {weather>/description}"/>
                                         </HBox>
-                                        <Text text="(openweathermap.org API)" class="cvWeatherSource" textAlign="End"/>
                                     </VBox>
                                     <HBox class="cvContactItem" alignItems="Center">
                                         <core:Icon src="sap-icon://source-code" class="cvContactIcon"/>
