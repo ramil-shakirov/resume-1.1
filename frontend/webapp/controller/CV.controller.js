@@ -170,8 +170,8 @@ sap.ui.define([
                 // Languages
                 "<div><div style='" + sSection + "'>Sprachkenntnisse</div>" +
                     "<div style='display:flex;gap:8px;align-items:baseline;margin-bottom:6px'><span style='min-width:120px;font-weight:600'>Russisch</span><span>Muttersprache</span></div>" +
-                    "<div style='display:flex;gap:8px;align-items:baseline;margin-bottom:6px'><span style='min-width:120px;font-weight:600'>Deutsch</span><span>C1-Niveau</span></div>" +
-                    "<div style='display:flex;gap:8px;align-items:baseline'><span style='min-width:120px;font-weight:600'>Englisch</span><span>B1-Niveau</span></div>" +
+                    "<div style='display:flex;gap:8px;align-items:baseline;margin-bottom:6px'><span style='min-width:120px;font-weight:600'>Deutsch</span><span>verhandlungssicher</span></div>" +
+                    "<div style='display:flex;gap:8px;align-items:baseline'><span style='min-width:120px;font-weight:600'>Englisch</span><span>Intermediate</span></div>" +
                 "</div>" +
 
                 "</body></html>";

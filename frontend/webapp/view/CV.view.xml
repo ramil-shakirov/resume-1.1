@@ -149,11 +149,11 @@
                                 </HBox>
                                 <HBox class="cvLangRow">
                                     <Text text="Deutsch" class="cvLangName"/>
-                                    <Text text="C1-Niveau" class="cvLangLevel"/>
+                                    <Text text="verhandlungssicher" class="cvLangLevel"/>
                                 </HBox>
                                 <HBox class="cvLangRow">
                                     <Text text="Englisch" class="cvLangName"/>
-                                    <Text text="B1-Niveau" class="cvLangLevel"/>
+                                    <Text text="Intermediate" class="cvLangLevel"/>
                                 </HBox>
                             </VBox>
                         </VBox>
