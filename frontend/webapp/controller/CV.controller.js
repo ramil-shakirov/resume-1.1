@@ -124,6 +124,11 @@ sap.ui.define([
                 "</div>";
             }).join("");
 
+            // Build language rows
+            var sLang = (oData._Languages || []).map(function (l) {
+                return "<div style='display:flex;gap:8px;align-items:baseline;margin-bottom:6px'><span style='min-width:120px;font-weight:600'>" + (l.Name || "") + "</span><span>" + (l.Level || "") + "</span></div>";
+            }).join("");
+
             // page-break-after/break-after keep a section title from being stranded
             // alone at the bottom of a page, separated from its own content.
             var sSection = "border-bottom:1.5px solid #ccc;padding-bottom:5px;margin-bottom:14px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#1a1a1a;page-break-after:avoid;break-after:avoid-page;";
@@ -168,11 +173,7 @@ sap.ui.define([
                 "<div style='margin-bottom:24px'><div style='" + sSection + "'>Weiterbildung / Schulbildung</div>" + sEdu + "</div>" +
 
                 // Languages
-                "<div><div style='" + sSection + "'>Sprachkenntnisse</div>" +
-                    "<div style='display:flex;gap:8px;align-items:baseline;margin-bottom:6px'><span style='min-width:120px;font-weight:600'>Russisch</span><span>Muttersprache</span></div>" +
-                    "<div style='display:flex;gap:8px;align-items:baseline;margin-bottom:6px'><span style='min-width:120px;font-weight:600'>Deutsch</span><span>verhandlungssicher</span></div>" +
-                    "<div style='display:flex;gap:8px;align-items:baseline'><span style='min-width:120px;font-weight:600'>Englisch</span><span>Intermediate</span></div>" +
-                "</div>" +
+                "<div><div style='" + sSection + "'>Sprachkenntnisse</div>" + sLang + "</div>" +
 
                 "</body></html>";
 

@@ -142,18 +142,10 @@
                         <!-- ======= SPRACHKENNTNISSE ======= -->
                         <VBox class="cvSection">
                             <Text text="Sprachkenntnisse" class="cvSectionTitle"/>
-                            <VBox class="cvLangSection">
+                            <VBox class="cvLangSection" items="{cv>/_Languages}">
                                 <HBox class="cvLangRow">
-                                    <Text text="Russisch" class="cvLangName"/>
-                                    <Text text="Muttersprache" class="cvLangLevel"/>
-                                </HBox>
-                                <HBox class="cvLangRow">
-                                    <Text text="Deutsch" class="cvLangName"/>
-                                    <Text text="verhandlungssicher" class="cvLangLevel"/>
-                                </HBox>
-                                <HBox class="cvLangRow">
-                                    <Text text="Englisch" class="cvLangName"/>
-                                    <Text text="Intermediate" class="cvLangLevel"/>
+                                    <Text text="{cv>Name}" class="cvLangName"/>
+                                    <Text text="{cv>Level}" class="cvLangLevel"/>
                                 </HBox>
                             </VBox>
                         </VBox>

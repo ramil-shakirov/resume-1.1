@@ -115,5 +115,10 @@
       "Description": "",
       "Technologies": ""
     }
+  ],
+  "_Languages": [
+    { "Name": "Russisch", "Level": "Muttersprache" },
+    { "Name": "Deutsch", "Level": "verhandlungssicher" },
+    { "Name": "Englisch", "Level": "Intermediate" }
   ]
 }
