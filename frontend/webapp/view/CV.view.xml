@@ -39,6 +39,10 @@
                                         </HBox>
                                         <Text text="(openweathermap.org API)" class="cvWeatherSource" textAlign="End"/>
                                     </VBox>
+                                    <HBox class="cvContactItem" alignItems="Center">
+                                        <core:Icon src="sap-icon://source-code" class="cvContactIcon"/>
+                                        <Link text="GitHub Repository" href="https://github.com/ramil-shakirov/resume-1.1" target="_blank"/>
+                                    </HBox>
                                 </HBox>
                             </VBox>
                         </HBox>
