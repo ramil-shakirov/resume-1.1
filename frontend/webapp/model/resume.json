@@ -4,6 +4,7 @@
   "Location": "Berlin",
   "Email": "r.shakirov77@web.de",
   "LinkedIn": "linkedin.com/in/ramil-shakirov-sap-hcm",
+  "LinkedInUrl": "https://linkedin.com/in/ramil-shakirov-sap-hcm",
   "Summary": "SAP HCM Consultant mit langjähriger, internationaler Erfahrung in den Modulen PA, PT, PY und OM, von der Anforderungsanalyse über Customizing bis zum Go-Live und Hypercare-Support. Verantwortung für ein Integrationsprojekt zwischen SAP HCM und einem Dokumentenmanagementsystem, sowohl fachlich als auch als Projektleiter. In Deutschland gezielte Vertiefung in der Entgeltabrechnung: Lohnarten, Schemen und Regeln (PY/PT), DEÜV, ELStAM sowie deutsches Steuer- und Sozialversicherungsrecht. Technische Analysefähigkeit und Debugging-Erfahrung im HCM-Umfeld.\n\nZusätzlich SAP ABAP Cloud Developer mit Erfahrung in der Entwicklung von Lösungen auf Basis von ABAP OO, RAP, CDS Views und OData-Services in Eclipse ADT. Vertraut mit der Gestaltung von SAP Fiori Anwendungen (Fiori Elements, SAPUI5, VSCode) auf der SAP BTP. Einsatz von KI-gestützten Entwicklungswerkzeugen: Claude-Code und OpenAI-LLMs, Custom Agents und Skills, ADT MCP Server, Git und weitere.",
   "PhotoUrl": "img/photo.png",
   "_Experiences": [
