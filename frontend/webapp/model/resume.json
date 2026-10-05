@@ -3,16 +3,26 @@
   "Title": "SAP ABAP Cloud Developer | Fiori & BTP Development\nSAP HCM Consultant (PY · PT · PA · OM)",
   "Location": "Berlin",
   "Email": "r.shakirov77@web.de",
-  "Summary": "SAP ABAP Cloud Developer mit Erfahrung in der Entwicklung von SAP-Lösungen auf Basis von ABAP OO, RAP, CDS Views und OData-Services in Eclipse ADT. Vertraut mit der Gestaltung von SAP Fiori Anwendungen (Fiori Elements, SAPUI5, VSCode) auf der SAP BTP. Einsatz von KI-gestützten Entwicklungswerkzeugen: Claude/OpenAI LLMs, Custom Agents/Skills, ABAP ADT MCP Server, abapGit u.v.m.\n\nLangjährige Erfahrung als SAP HCM Consultant (PA, PT, PY, OM) — international sowie mit gezielter Vertiefung in der deutschen Entgeltabrechnung: Lohnarten, Schemen, DEÜV, ELStAM und deutsches Steuer- und Sozialversicherungsrecht. Technische Analysefähigkeit und Debugging-Erfahrung im HCM-Umfeld.",
+  "LinkedIn": "linkedin.com/in/ramil-shakirov-sap-hcm",
+  "Summary": "SAP HCM Consultant mit langjähriger, internationaler Erfahrung in den Modulen PA, PT, PY und OM, von der Anforderungsanalyse über Customizing bis zum Go-Live und Hypercare-Support. Verantwortung für ein Integrationsprojekt zwischen SAP HCM und einem Dokumentenmanagementsystem, sowohl fachlich als auch als Projektleiter. In Deutschland gezielte Vertiefung in der Entgeltabrechnung: Lohnarten, Schemen und Regeln (PY/PT), DEÜV, ELStAM sowie deutsches Steuer- und Sozialversicherungsrecht. Technische Analysefähigkeit und Debugging-Erfahrung im HCM-Umfeld.\n\nZusätzlich SAP ABAP Cloud Developer mit Erfahrung in der Entwicklung von Lösungen auf Basis von ABAP OO, RAP, CDS Views und OData-Services in Eclipse ADT. Vertraut mit der Gestaltung von SAP Fiori Anwendungen (Fiori Elements, SAPUI5, VSCode) auf der SAP BTP. Einsatz von KI-gestützten Entwicklungswerkzeugen: Claude-Code und OpenAI-LLMs, Custom Agents und Skills, ADT MCP Server, Git und weitere.",
   "PhotoUrl": "img/photo.png",
   "_Experiences": [
+    {
+      "CompanyName": "SAP-Weiterbildung & Freiberufliche Tätigkeit",
+      "RoleTitle": "SAP ABAP Cloud Developer / Freelancer",
+      "StartDate": "2024-10-01",
+      "EndDate": "",
+      "Location": "Berlin",
+      "Tasks": "Erwarb die Zertifizierung SAP Certified Backend Developer – ABAP Cloud durch offizielle SAP-Schulungen. Vertiefung in modernem ABAP OO, RAP, CDS Views, OData-Services und SAP Fiori (Fiori Elements, SAPUI5). Entwickelte eigene Proof-of-Concept-Anwendungen auf SAP BTP unter Einsatz von Eclipse ADT, VSCode und KI-gestützten Entwicklungswerkzeugen. Daneben freiberufliche IT-Tätigkeit außerhalb des SAP-Kontexts (Betreuung von Websites).",
+      "Technologies": ""
+    },
     {
       "CompanyName": "OEDIV HR Services",
       "RoleTitle": "SAP HCM Consultant in Application Management Services Team",
       "StartDate": "2024-04-01",
       "EndDate": "2024-09-30",
       "Location": "Bielefeld/Berlin",
-      "Tasks": "2nd-Level-Support der SAP-HCM-Systemlandschaft (PY, PT, PA) für Kundensysteme. Analyse und Bearbeitung von Incidents und Tickets in der Entgeltabrechnung und Zeitwirtschaft. Customizing von Lohnarten, Schemen, Regeln und Teilapplikationen. Monitoring und Fehleranalyse gesetzlicher Meldeverfahren (DEÜV, ELStAM). Technische Fehleranalyse mittels ABAP-Debugging.",
+      "Tasks": "Betreute mehrere SAP-HCM-Kundensysteme unterschiedlicher Branchen und Größenordnungen (500 bis 5.000 Mitarbeitende) im 2nd-Level-Support. Analysierte und bearbeitete Incidents und Tickets in der Entgeltabrechnung und Zeitwirtschaft. Übersetzte fachliche Kundenanfragen in konkrete technische Parameter beim Customizing von Lohnarten, Schemen, Regeln und Teilapplikationen. Überwachte gesetzliche Meldeverfahren (DEÜV, ELStAM) und analysierte sowie behob auftretende Fehler. Führte technische Fehleranalysen mittels ABAP-Debugging durch.",
       "Technologies": "SAP HCM · PY · PT · PA"
     },
     {
@@ -21,7 +31,7 @@
       "StartDate": "2023-09-01",
       "EndDate": "2024-02-29",
       "Location": "Berlin",
-      "Tasks": "Pflege und Aktualisierung abrechnungsrelevanter Stammdaten (Krankenkassenbeitragssätze, UV-Stammdaten). Analyse und Implementierung von SAP-Hinweisen via SNOTE. Durchführung von Tests im Rahmen von HR Support Packages. Analyse und Behebung abrechnungsrelevanter Fehler in SAP HCM Payroll.",
+      "Tasks": "Pflegte und aktualisierte abrechnungsrelevante Stammdaten (Krankenkassenbeitragssätze, UV-Stammdaten). Analysierte SAP-Hinweise via SNOTE, sowohl bei konkreten Abrechnungsfehlern als auch im Rahmen der quartalsweisen HR Support Packages, und stimmte Hinweis-Listen mit dem Business ab. Implementierte die abgestimmten SAP-Hinweise via SNOTE. Führte Tests im Rahmen der HR Support Packages durch und behob abrechnungsrelevante Fehler im 2nd-Level-Support.",
       "Technologies": "SAP HCM · PY · SNOTE · HR Support Packages"
     },
     {
@@ -48,7 +58,7 @@
       "StartDate": "2014-08-01",
       "EndDate": "2015-01-31",
       "Location": "Astana/Kasachstan",
-      "Tasks": "Konfiguration von Arbeitszeitplänen, Abwesenheitsarten und Kontingentverwaltung. Umsetzung kundenspezifischer Anforderungen im Bereich der negativen Zeitauswertung.",
+      "Tasks": "Konfigurierte Arbeitszeitpläne, Abwesenheitsarten und Kontingentverwaltung im Rahmen eines Weiterentwicklungsprojekts. Entwickelte kundenspezifische Personalrechenregeln (PCRs) und Zeitarten für die Berechnung von Überstunden und Zuschlägen, abhängig von Tageszeit, Wochentag und branchenspezifischen Zulagen. Leitete daraus resultierende kundenspezifische Lohnarten ab.",
       "Technologies": "SAP HCM · PT"
     },
     {
@@ -57,8 +67,8 @@
       "StartDate": "2012-09-01",
       "EndDate": "2014-01-31",
       "Location": "Almaty/Kasachstan",
-      "Tasks": "Analyse der Geschäftsanforderungen und Erstellung von Fachkonzepten für die Module PA, OM und PT. Konzeption und Implementierung einer bidirektionalen Schnittstelle zwischen SAP HCM (Zeitwirtschaft) und EMC Documentum (Dokumentenmanagement & Employee Self-Service). Sicherstellung des 2nd-Level-Supports im Produktivbetrieb.",
-      "Technologies": "SAP HCM · PA · OM · PT · ECM · EMC Documentum"
+      "Tasks": "Wirkte im Team bei einem vollständigen SAP-Einführungsprojekt mit (Module PA und OM), von der Anforderungsaufnahme bis zum Go-Live. Konfigurierte zentrale PA-Stammdaten (Personnel Actions, Employee Groups) und baute die Organisationsstruktur in OM auf (Organisationseinheiten, Stellen, Planstellen). Führte die Datenmigration aus dem Altsystem durch, von der Datenbereinigung über die LSMW-Ladung bis zum Testing. Konzipierte und implementierte, sowohl fachlich als auch als Projektleiter, eine bidirektionale Schnittstelle zwischen SAP HCM und einem Dokumentenmanagementsystem. Automatisierte dadurch die Anlage von Abwesenheits-Infotypen aus genehmigten Urlaubsanträgen, inklusive Verlinkung zum unterschriebenen Dokument, mit spürbarer Reduzierung von Durchlaufzeit und Prozesskosten. Übernahm den 2nd-Level-Support im Produktivbetrieb sowie die Schulung der Endanwender:innen direkt nach Go-Live.",
+      "Technologies": "SAP HCM · PA · OM · ECM"
     },
     {
       "CompanyName": "Diverse Unternehmen",
@@ -72,17 +82,6 @@
   ],
   "_Educations": [
     {
-      "Institution": "Selbststudium",
-      "Degree": "SAP ABAP Cloud & Fiori Development",
-      "FieldStudy": "",
-      "Location": "Berlin",
-      "StartDate": "2024-10-01",
-      "EndDate": "",
-      "Grade": "",
-      "Description": "SAP Certified Backend Developer – ABAP Cloud. Vertiefung in modernem ABAP OO, RAP, CDS Views, OData-Services und SAP Fiori (Fiori Elements, SAPUI5). Entwicklung eigener Anwendungen auf SAP BTP (ABAP Environment) unter Einsatz von Eclipse ADT, VSCode und KI-gestützten Entwicklungswerkzeugen. Freiberufliche Tätigkeit außerhalb des SAP-Kontexts.",
-      "Technologies": ""
-    },
-    {
       "Institution": "EPI-USE",
       "Degree": "Praktikum SAP HCM Zeitwirtschaft",
       "FieldStudy": "",
@@ -90,7 +89,7 @@
       "StartDate": "2022-08-01",
       "EndDate": "2022-09-30",
       "Grade": "",
-      "Description": "Customizing von Arbeitszeitplänen, Abwesenheitskontingenten und Personalzeitereignissen. Anpassung von Zeitwirtschaftsschema und Personalrechenregeln. Durchführung und Analyse von Testläufen.",
+      "Description": "Passte Arbeitszeitpläne, Abwesenheitskontingente und Personalzeitereignisse im Rahmen eines Praktikums an. Passte Zeitwirtschaftsschema und Personalrechenregeln an. Führte Testläufe durch und analysierte die Ergebnisse.",
       "Technologies": "SAP PT"
     },
     {
@@ -101,7 +100,7 @@
       "StartDate": "2019-02-01",
       "EndDate": "2022-04-30",
       "Grade": "",
-      "Description": "SAP Certified Application Associate – Human Capital Management (HCM). Vertiefung der Fachkenntnisse in der deutschen Entgeltabrechnung und Sozialversicherung. Intensiver Spracherwerb Deutsch (Niveau B2/C1).",
+      "Description": "Erwarb die Zertifizierung SAP Certified Application Associate – Human Capital Management (HCM). Vertiefte Fachkenntnisse in der deutschen Entgeltabrechnung und Sozialversicherung. Erlernte Deutsch intensiv bis Niveau B2/C1.",
       "Technologies": ""
     },
     {

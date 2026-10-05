@@ -152,6 +152,7 @@ sap.ui.define([
                         "<div style='font-size:12.5px;color:#444;display:flex;gap:20px;flex-wrap:wrap'>" +
                             (oData.Email ? "<span>✉ " + oData.Email + "</span>" : "") +
                             (oData.Phone ? "<span>☎ " + oData.Phone + "</span>" : "") +
+                            (oData.LinkedIn ? "<span>🔗 " + oData.LinkedIn + "</span>" : "") +
                         "</div>" +
                         (oWeather && oWeather.loaded ?
                             "<div style='margin-top:10px;font-size:11px;color:#888'>" +
