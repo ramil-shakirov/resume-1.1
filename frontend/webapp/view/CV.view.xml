@@ -35,16 +35,14 @@
                                         <core:Icon src="sap-icon://world" class="cvContactIcon"/>
                                         <Link text="{cv>/LinkedIn}" href="{cv>/LinkedInUrl}" target="_blank"/>
                                     </HBox>
-                                    <VBox class="cvWeatherItem" visible="{= !!${weather>/loaded} }">
-                                        <Text text="Ich wohne in Berlin, wo gerade" class="cvWeatherLabel" textAlign="Center"/>
-                                        <HBox alignItems="Center" class="cvWeatherRow">
-                                            <Image src="{weather>/icon}" width="22px" height="22px" class="cvWeatherIcon"/>
-                                            <Text text="{weather>/temp}°C · {weather>/description}"/>
-                                        </HBox>
-                                    </VBox>
                                     <HBox class="cvContactItem" alignItems="Center">
                                         <core:Icon src="sap-icon://source-code" class="cvContactIcon"/>
                                         <Link text="GitHub Repository" href="https://github.com/ramil-shakirov/resume-1.1" target="_blank"/>
+                                    </HBox>
+                                    <HBox class="cvContactItem cvWeatherItem" alignItems="Center" visible="{= !!${weather>/loaded} }">
+                                        <Text text="Ich wohne in Berlin, wo gerade"/>
+                                        <Image src="{weather>/icon}" width="22px" height="22px" class="cvWeatherIcon"/>
+                                        <Text text="{weather>/temp}°C · {weather>/description}"/>
                                     </HBox>
                                 </HBox>
                             </VBox>
