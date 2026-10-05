@@ -1,6 +1,6 @@
 {
   "FullName": "Ramil Shakirov",
-  "Title": "SAP ABAP Cloud Developer | Fiori & BTP Development\nSAP HCM Consultant (PY · PT · PA · OM)",
+  "Title": "SAP HCM Consultant (PA, PT, PY, OM)\nSAP ABAP Cloud Developer – Fiori & BTP Development",
   "Location": "Berlin",
   "Email": "r.shakirov77@web.de",
   "LinkedIn": "linkedin.com/in/ramil-shakirov-sap-hcm",
@@ -23,7 +23,7 @@
       "EndDate": "2024-09-30",
       "Location": "Bielefeld/Berlin",
       "Tasks": "Betreute mehrere SAP-HCM-Kundensysteme unterschiedlicher Branchen und Größenordnungen (500 bis 5.000 Mitarbeitende) im 2nd-Level-Support. Analysierte und bearbeitete Incidents und Tickets in der Entgeltabrechnung und Zeitwirtschaft. Übersetzte fachliche Kundenanfragen in konkrete technische Parameter beim Customizing von Lohnarten, Schemen, Regeln und Teilapplikationen. Überwachte gesetzliche Meldeverfahren (DEÜV, ELStAM) und analysierte sowie behob auftretende Fehler. Führte technische Fehleranalysen mittels ABAP-Debugging durch.",
-      "Technologies": "SAP HCM · PY · PT · PA"
+      "Technologies": ""
     },
     {
       "CompanyName": "Lufthansa Industry Solutions",
@@ -32,7 +32,7 @@
       "EndDate": "2024-02-29",
       "Location": "Berlin",
       "Tasks": "Pflegte und aktualisierte abrechnungsrelevante Stammdaten (Krankenkassenbeitragssätze, UV-Stammdaten). Analysierte SAP-Hinweise via SNOTE, sowohl bei konkreten Abrechnungsfehlern als auch im Rahmen der quartalsweisen HR Support Packages, und stimmte Hinweis-Listen mit dem Business ab. Implementierte die abgestimmten SAP-Hinweise via SNOTE. Führte Tests im Rahmen der HR Support Packages durch und behob abrechnungsrelevante Fehler im 2nd-Level-Support.",
-      "Technologies": "SAP HCM · PY · SNOTE · HR Support Packages"
+      "Technologies": ""
     },
     {
       "CompanyName": "Iron Mountain Deutschland (Interim/Projektmitarbeit)",
@@ -41,7 +41,7 @@
       "EndDate": "2023-05-31",
       "Location": "Berlin",
       "Tasks": "Unterstützung in einem befristeten Massendigitalisierungsprojekt inklusive Scan-, Indexierungs- und Archivierungsprozessen.",
-      "Technologies": "ECM/DMS, Workflow, Digital Archiving"
+      "Technologies": ""
     },
     {
       "CompanyName": "Berufliche Neuorientierung und fachliche Weiterbildung",
@@ -59,7 +59,7 @@
       "EndDate": "2019-01-31",
       "Location": "Almaty/Kasachstan",
       "Tasks": "Selbstständige Tätigkeit mit Verantwortung für Projektplanung, Budgetierung und Kundenmanagement.",
-      "Technologies": "Projektmanagement · Agile/Scrum"
+      "Technologies": ""
     },
     {
       "CompanyName": "ERP-Services KazTransCom",
@@ -68,7 +68,7 @@
       "EndDate": "2015-01-31",
       "Location": "Astana/Kasachstan",
       "Tasks": "Konfigurierte Arbeitszeitpläne, Abwesenheitsarten und Kontingentverwaltung im Rahmen eines Weiterentwicklungsprojekts. Entwickelte kundenspezifische Personalrechenregeln (PCRs) und Zeitarten für die Berechnung von Überstunden und Zuschlägen, abhängig von Tageszeit, Wochentag und branchenspezifischen Zulagen. Leitete daraus resultierende kundenspezifische Lohnarten ab.",
-      "Technologies": "SAP HCM · PT"
+      "Technologies": ""
     },
     {
       "CompanyName": "BAS Consulting",
@@ -77,7 +77,7 @@
       "EndDate": "2014-01-31",
       "Location": "Almaty/Kasachstan",
       "Tasks": "Wirkte im Team bei einem vollständigen SAP-Einführungsprojekt mit (Module PA und OM), von der Anforderungsaufnahme bis zum Go-Live. Konfigurierte zentrale PA-Stammdaten (Personnel Actions, Employee Groups) und baute die Organisationsstruktur in OM auf (Organisationseinheiten, Stellen, Planstellen). Führte die Datenmigration aus dem Altsystem durch, von der Datenbereinigung über die LSMW-Ladung bis zum Testing. Konzipierte und implementierte, sowohl fachlich als auch als Projektleiter, eine bidirektionale Schnittstelle zwischen SAP HCM und einem Dokumentenmanagementsystem. Automatisierte dadurch die Anlage von Abwesenheits-Infotypen aus genehmigten Urlaubsanträgen, inklusive Verlinkung zum unterschriebenen Dokument, mit spürbarer Reduzierung von Durchlaufzeit und Prozesskosten. Übernahm den 2nd-Level-Support im Produktivbetrieb sowie die Schulung der Endanwender:innen direkt nach Go-Live.",
-      "Technologies": "SAP HCM · PA · OM · ECM"
+      "Technologies": ""
     },
     {
       "CompanyName": "Diverse Unternehmen",
@@ -86,7 +86,7 @@
       "EndDate": "2012-08-31",
       "Location": "Kasachstan",
       "Tasks": "IT-Beratung und Projektleitung im Bereich Dokumentenmanagement und ECM.",
-      "Technologies": "ECM · Dokumentenmanagement · Workflow · Archivierung · Projektmanagement · Agile/Scrum"
+      "Technologies": ""
     }
   ],
   "_Educations": [
@@ -99,7 +99,7 @@
       "EndDate": "2022-09-30",
       "Grade": "",
       "Description": "Passte Arbeitszeitpläne, Abwesenheitskontingente und Personalzeitereignisse im Rahmen eines Praktikums an. Passte Zeitwirtschaftsschema und Personalrechenregeln an. Führte Testläufe durch und analysierte die Ergebnisse.",
-      "Technologies": "SAP PT"
+      "Technologies": ""
     },
     {
       "Institution": "Akhmet Yassawi International Kazakh-Turkish University",
@@ -114,8 +114,17 @@
     }
   ],
   "_Languages": [
-    { "Name": "Russisch", "Level": "Muttersprache" },
-    { "Name": "Deutsch", "Level": "Verhandlungssicher" },
-    { "Name": "Englisch", "Level": "Intermediate" }
+    {
+      "Name": "Russisch",
+      "Level": "Muttersprache"
+    },
+    {
+      "Name": "Deutsch",
+      "Level": "Verhandlungssicher"
+    },
+    {
+      "Name": "Englisch",
+      "Level": "Intermediate"
+    }
   ]
 }
