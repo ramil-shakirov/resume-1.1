@@ -44,6 +44,15 @@
       "Technologies": "ECM/DMS, Workflow, Digital Archiving"
     },
     {
+      "CompanyName": "Berufliche Neuorientierung und fachliche Weiterbildung",
+      "RoleTitle": "",
+      "StartDate": "2019-02-01",
+      "EndDate": "2022-04-30",
+      "Location": "Berlin",
+      "Tasks": "Erwarb die Zertifizierung SAP Certified Application Associate – Human Capital Management (HCM). Vertiefte Fachkenntnisse in der deutschen Entgeltabrechnung und Sozialversicherung. Erlernte Deutsch intensiv bis Niveau B2/C1.",
+      "Technologies": ""
+    },
+    {
       "CompanyName": "E-event.kz",
       "RoleTitle": "Projektleiter",
       "StartDate": "2015-02-01",
@@ -91,17 +100,6 @@
       "Grade": "",
       "Description": "Passte Arbeitszeitpläne, Abwesenheitskontingente und Personalzeitereignisse im Rahmen eines Praktikums an. Passte Zeitwirtschaftsschema und Personalrechenregeln an. Führte Testläufe durch und analysierte die Ergebnisse.",
       "Technologies": "SAP PT"
-    },
-    {
-      "Institution": "Berufliche Neuorientierung und fachliche Weiterbildung",
-      "Degree": "",
-      "FieldStudy": "",
-      "Location": "Berlin",
-      "StartDate": "2019-02-01",
-      "EndDate": "2022-04-30",
-      "Grade": "",
-      "Description": "Erwarb die Zertifizierung SAP Certified Application Associate – Human Capital Management (HCM). Vertiefte Fachkenntnisse in der deutschen Entgeltabrechnung und Sozialversicherung. Erlernte Deutsch intensiv bis Niveau B2/C1.",
-      "Technologies": ""
     },
     {
       "Institution": "Akhmet Yassawi International Kazakh-Turkish University",
